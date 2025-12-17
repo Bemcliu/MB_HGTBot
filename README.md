@@ -40,7 +40,7 @@ You can download all required datasets (Follow, Reply, Like, Mention, Retweet, Q
 * **Link**: [https://doi.org/10.5281/zenodo.17967052](https://doi.org/10.5281/zenodo.17967052)
 
 ### 2. Organize Data
-After downloading and extracting the files, please organize them into the `datasets` directory structure as follows to ensure the code runs correctly:
+After downloading and extracting the files, please organize them into the directory structure as data to ensure the code runs correctly:
 
 ```text
 DatasetsForPaper/
@@ -69,5 +69,5 @@ This project is built on Python 3.10 and PyTorch 2.4.0.
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/yourusername/MB-HGTBot.git](https://github.com/yourusername/MB-HGTBot.git)
+git clone https://github.com/Bemcliu/MB_HGTBot.git
 cd MB-HGTBot
