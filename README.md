@@ -32,8 +32,6 @@ MB-HGTBot utilizes a Heterogeneous Graph Transformer mechanism to capture semant
 
 This project utilizes diverse social behavior datasets and topic-specific datasets. We have publicly released the processed datasets on Zenodo.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17967052.svg)](https://doi.org/10.5281/zenodo.17967052)
-
 ### 1. Download Data
 You can download all required datasets (Follow, Reply, Like, Mention, Retweet, Quote, Abortion, LGBTQ, Trump_attacked) directly from our Zenodo repository:
 
