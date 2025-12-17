@@ -28,6 +28,41 @@ MB-HGTBot utilizes a Heterogeneous Graph Transformer mechanism to capture semant
 ![Model Architecture](assets/model.png)
 *Figure 2: The overall architecture of MB-HGTBot. It integrates multi-modal user semantic representations with heterogeneous graph learning.*
 
+## 📂 Datasets
+
+This project utilizes diverse social behavior datasets and topic-specific datasets. We have publicly released the processed datasets on Zenodo.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17967052.svg)](https://doi.org/10.5281/zenodo.17967052)
+
+### 1. Download Data
+You can download all required datasets (Follow, Reply, Like, Mention, Retweet, Quote, Abortion, LGBTQ, Trump_attacked) directly from our Zenodo repository:
+
+* **Link**: [https://doi.org/10.5281/zenodo.17967052](https://doi.org/10.5281/zenodo.17967052)
+
+### 2. Organize Data
+After downloading and extracting the files, please organize them into the `datasets` directory structure as follows to ensure the code runs correctly:
+
+```text
+MB-HGTBot/
+├── datasets/
+│   ├── Twibot-22/           # Social Behavior Sub-networks
+│   │   ├── follow/
+│   │   ├── reply/
+│   │   ├── like/
+│   │   ├── mention/
+│   │   ├── retweet/
+│   │   └── quote/
+│   │
+│   └── Topics/              # Topic-Specific Datasets
+│       ├── abortion/
+│       ├── lgbtq/
+│       └── trump_attacked/
+│
+├── data_preprocess/         # Preprocessing scripts
+│   ├── Dataset_twibot_22.py
+│   └── ...
+```
+
 ## 🛠️ Environment Setup
 
 This project is built on Python 3.10 and PyTorch 2.4.0.
