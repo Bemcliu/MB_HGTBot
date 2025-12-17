@@ -43,20 +43,20 @@ You can download all required datasets (Follow, Reply, Like, Mention, Retweet, Q
 After downloading and extracting the files, please organize them into the `datasets` directory structure as follows to ensure the code runs correctly:
 
 ```text
-MB-HGTBot/
-├── datasets/
-│   ├── Twibot-22/           # Social Behavior Sub-networks
-│   │   ├── follow/
-│   │   ├── reply/
-│   │   ├── like/
-│   │   ├── mention/
-│   │   ├── retweet/
-│   │   └── quote/
+DatasetsForPaper/
+├── DatasetsForPaper/
+│   ├── Interaction/           # Social Behavior Sub-networks
+│   │   ├── Follow/
+│   │   ├── Reply/
+│   │   ├── Like/
+│   │   ├── Mention/
+│   │   ├── Retweet/
+│   │   └── Quote/
 │   │
 │   └── Topics/              # Topic-Specific Datasets
-│       ├── abortion/
-│       ├── lgbtq/
-│       └── trump_attacked/
+│       ├── Abortion/
+│       ├── Lgbtq/
+│       └── Trump_attacked/
 │
 ├── data_preprocess/         # Preprocessing scripts
 │   ├── Dataset_twibot_22.py
